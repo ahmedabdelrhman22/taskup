@@ -38,6 +38,7 @@ class _HomeState extends State<Home> {
         "Posts"
         );
     postref.once(
+
     ).then(
             (DataSnapshot snap) {
           // ignore: non_constant_identifier_names
